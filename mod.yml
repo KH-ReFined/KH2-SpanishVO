@@ -1,6 +1,6 @@
 title: Re:Fined - Spanish Audio Addon [KH2]
 originalAuthor: TopazTK
-description: The Spanish VO Addon for Kingdom Hearts II - Re:Fined. Requires KH2-MultiAudio
+description: The Spanish VO Addon for Kingdom Hearts II - Re:Fined. Requires the Multi Audio addon.
 assets:
 
 - name: msg/us/sys.bar
@@ -12,6 +12,46 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
+
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: fr
+
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: it
+
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: sp
+
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: gr
 
 - name: raw/obj/AL14_CARPET.a.ks
   package: kh2_first
