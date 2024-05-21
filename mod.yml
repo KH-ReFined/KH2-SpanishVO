@@ -3,6 +3,88 @@ originalAuthor: TopazTK
 description: The Spanish VO Addon for Kingdom Hearts II - Re:Fined. Requires KH2-MultiAudio
 assets:
 
+# === Dual Audio - Gummi Events ===
+
+- name: raw/libretto/ks/wm502.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm502.bar
+
+- name: raw/libretto/ks/wm503.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm503.bar
+
+- name: raw/libretto/ks/wm512.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm512.bar
+
+- name: raw/libretto/ks/wm521.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm521.bar
+
+- name: raw/libretto/ks/wm524.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm524.bar
+
+- name: raw/libretto/ks/wm1660.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1660.bar
+
+- name: raw/libretto/ks/wm1661.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1661.bar
+
+- name: raw/libretto/ks/wm1662.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1662.bar
+
+- name: raw/libretto/ks/wm1823.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1823.bar
+
+- name: raw/libretto/ks/wm1824.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1824.bar
+
+- name: raw/libretto/ks/wm1836.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1836.bar
+
+- name: raw/libretto/ks/wm1837.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1837.bar
+
+- name: raw/libretto/ks/wm1838.bar
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: libretto/ks/wm1838.bar
+
+
+
 - name: msg/us/sys.bar
   method: binarc
   source:
@@ -3028,7 +3110,7 @@ assets:
   package: kh2_first
   method: copy
   source:
-    - name: obj/P_EX100_TR_TRIF.a.ks
+    - name: obj/P_EX100_TR_KH1F.a.ks
 - name: raw/obj/P_EX100_TR_TRIF.a.ks
   package: kh2_first
   method: copy
