@@ -3,6 +3,11 @@ originalAuthor: TopazTK
 description: The Spanish VO Addon for Kingdom Hearts II - Re:Fined. Requires KH2-MultiAudio
 assets:
 
+
+- name: remastered/obj/B_EX140.a.es/se/obj/se320
+  method: copy
+  source:
+    - name: remastered/obj/B_EX140.a.es/se/obj/se320
 # === Dual Audio - Gummi Events ===
 
 - name: raw/libretto/es/wm502.bar
