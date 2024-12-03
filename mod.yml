@@ -2,12 +2,7 @@ title: Re:Fined - Spanish Audio Addon [KH2]
 originalAuthor: TopazTK
 description: The Spanish VO Addon for Kingdom Hearts II - Re:Fined. Requires KH2-MultiAudio
 assets:
-
-
-- name: remastered/obj/B_EX140.a.es/se/obj/se320
-  method: copy
-  source:
-    - name: remastered/obj/B_EX140.a.es/se/obj/se320
+    
 # === Dual Audio - Gummi Events ===
 
 - name: raw/libretto/es/wm502.bar
@@ -36519,6 +36514,13 @@ assets:
   method: copy
   source:
     - name: voice/es/event/wm31505ci.win32.scd
+  
+- name: remastered/obj/B_EX140.a.es/se/obj/se320
+  multi:
+    - name: remastered/obj/B_EX140_LV99.a.es/se/obj/se320
+  method: copy
+  source:
+    - name: remastered/obj/B_EX140.a.es/se/obj/se320
 
 - name: remastered/obj/P_EX100.a.es/-0.dds
   package: kh2_first
