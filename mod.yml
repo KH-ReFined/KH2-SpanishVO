@@ -15185,6 +15185,7 @@ assets:
 - name: voice/es/event/lm50207do.win32.scd
   method: copy
   source:
+<<<<<<< Updated upstream
   - name: voice/es/event/lm50207do.win32.scd
 - name: voice/es/event/lmmu1-01.win32.scd
   method: copy
@@ -15430,6 +15431,9 @@ assets:
   method: copy
   source:
   - name: voice/es/event/lmmu7.win32.scd
+=======
+    - name: voice/es/event/lm50207do.win32.scd
+>>>>>>> Stashed changes
 - name: voice/es/event/mu10101ms_1.win32.scd
   method: copy
   source:
